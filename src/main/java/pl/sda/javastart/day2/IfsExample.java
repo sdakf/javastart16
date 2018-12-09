@@ -11,8 +11,10 @@ public class IfsExample {
         System.out.println(threeParamsSum(23, 34, 57));
         System.out.println(threeParamsSum(343, 3124, 527));*/
 //        System.out.println(isAnyBiggerThanZero(0,0));
-        System.out.println(answerCall(true,true,false));
-        System.out.println(answerCall(true,true,true));
+        System.out.println(answerCall(true, true, false));
+        System.out.println(answerCall(true, true, true));
+        System.out.println(checkWhichOneIsBigger(2,1,3));
+        System.out.println(checkWhichOneIsBigger(2,1,2));
     }
 
     public static boolean isEven(int a) {
@@ -71,13 +73,30 @@ public class IfsExample {
     public static boolean isAnyBiggerThanZero(int a, int b) {
         return a > 0 || b > 0;
     }
-    public static boolean answerCall(boolean isMama, boolean isMorning, boolean isAsleep){
-        if(isAsleep){
+
+    public static boolean answerCall(boolean isMama, boolean isMorning, boolean isAsleep) {
+        if (isAsleep) {
             return false;
         }
-        if(isMorning & !isMama){
+        if (isMorning & !isMama) {
             return false;
         }
         return true;
+
     }
+
+    public static int checkWhichOneIsBigger(int a, int b, int c) {
+        if (a > b && a > c) {
+            return a;
+        }
+        if (b > a && b > c) {
+            return b;
+        }
+
+        return c;
+
+    }
+
 }
+
+
