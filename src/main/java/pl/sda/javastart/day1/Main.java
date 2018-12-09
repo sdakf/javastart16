@@ -3,7 +3,7 @@ package pl.sda.javastart.day1;
 import java.util.Date;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) { //tej metody szuka java uruchamiając program
         System.out.println("Hello World!");
         Date date = new Date();
         System.out.println(date.toString());

@@ -36,11 +36,11 @@ public class MethodsExample {
         return result;
     }
 
-    public static String minutesToDateValue(int minutes) {
+    public static String minutesToDateValue(int minutes) { //todo
         int h = minutes / 60;
         int m = minutes % 60;
         int d = minutes / (24 * 60);
-        int y = minutes / (d / 365);
+        int y = minutes / (d * 365);//fixme
         return y + "y " + d + "d " + h + "h " + m + "m ";
     }
 
