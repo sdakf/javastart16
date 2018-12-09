@@ -1,4 +1,4 @@
-package pl.sda.javastart;
+package pl.sda.javastart.day1;
 
 public class MinMaxValues {
     public static void main(String[] args) {

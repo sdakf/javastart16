@@ -1,4 +1,4 @@
-package pl.sda.javastart;
+package pl.sda.javastart.day1;
 
 import java.util.Scanner;
 
@@ -19,7 +19,8 @@ public class Calculator {
         System.out.println("a^b = " + Math.pow(firstValue, secondValue));
 
 
-
+        double max = Math.max(4.0, 5L);
+        System.out.println(max);
     }
 
 }

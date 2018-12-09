@@ -1,4 +1,4 @@
-package pl.sda.javastart;
+package pl.sda.javastart.day1;
 
 import java.util.Date;
 

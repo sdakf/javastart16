@@ -1,4 +1,4 @@
-package pl.sda.javastart;
+package pl.sda.javastart.day1;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;
