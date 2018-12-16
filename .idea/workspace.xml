@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b07d781d-efa7-41b1-977a-d6cf5d84ced2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day4/HomeWork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day4/ForsExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day4/RandomExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day3/ArraysExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day3/ArraysExample.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,12 +17,14 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/javastart/day4/HomeWork.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/javastart/day4/RandomExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
-              <caret line="40" column="125" selection-start-line="40" selection-start-column="125" selection-end-line="40" selection-end-column="125" />
+            <state relative-caret-position="194">
+              <caret line="7" column="68" selection-start-line="7" selection-start-column="68" selection-end-line="7" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#130#131#0" expanded="true" />
+                <element signature="e#151#152#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -65,6 +67,9 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day2/ForsExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day3/ArraysExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day4/HomeWork.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day4/ForsExample2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day4/Random.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day4/RandomExample.java" />
       </list>
     </option>
   </component>
@@ -166,7 +171,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544954148305" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544957760716" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -186,7 +191,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HomeWork">
+  <component name="RunManager" selected="Application.RandomExample">
     <configuration name="ArraysExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.sda.javastart.day3.ArraysExample" />
       <module name="javastart" />
@@ -213,6 +218,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ForsExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.sda.javastart.day4.ForsExample2" />
+      <module name="javastart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.sda.javastart.day4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HomeWork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.sda.javastart.day4.HomeWork" />
       <module name="javastart" />
@@ -226,25 +244,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Homework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.sda.javastart.day3.Homework" />
+    <configuration name="RandomExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.sda.javastart.day4.RandomExample" />
       <module name="javastart" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.sda.javastart.day3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WhileExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.sda.javastart.day3.WhileExample" />
-      <module name="javastart" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.sda.javastart.day3.*" />
+          <option name="PATTERN" value="pl.sda.javastart.day4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -254,11 +259,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RandomExample" />
+        <item itemvalue="Application.ForsExample2" />
         <item itemvalue="Application.HomeWork" />
         <item itemvalue="Application.ArraysExample" />
         <item itemvalue="Application.ForsExample" />
-        <item itemvalue="Application.WhileExample" />
-        <item itemvalue="Application.Homework" />
       </list>
     </recent_temporary>
   </component>
@@ -275,7 +280,7 @@
       <workItem from="1544259975849" duration="16866000" />
       <workItem from="1544342524687" duration="18916000" />
       <workItem from="1544860846588" duration="21888000" />
-      <workItem from="1544947363987" duration="5428000" />
+      <workItem from="1544947363987" duration="8260000" />
     </task>
     <task id="LOCAL-00001" summary="First Day">
       <created>1544281080520</created>
@@ -340,11 +345,18 @@
       <option name="project" value="LOCAL" />
       <updated>1544886704137</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Homework">
+      <created>1544954324493</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1544954324494</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63098000" />
+    <option name="totallyTimeSpent" value="65930000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -431,10 +443,10 @@
     <MESSAGE value="Ifs2" />
     <MESSAGE value="Ifs3" />
     <MESSAGE value="Fors1" />
-    <MESSAGE value="Homework" />
     <MESSAGE value="ForsWhiles" />
     <MESSAGE value="Arrays" />
-    <option name="LAST_COMMIT_MESSAGE" value="Arrays" />
+    <MESSAGE value="Homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -593,10 +605,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/javastart/day4/HomeWork.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="40" column="125" selection-start-line="40" selection-start-column="125" selection-end-line="40" selection-end-column="125" />
+        <state relative-caret-position="186">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/javastart/day4/ForsExample2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <folding>
+            <element signature="e#103#104#0" expanded="true" />
+            <element signature="e#139#140#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/javastart/day4/RandomExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="7" column="68" selection-start-line="7" selection-start-column="68" selection-end-line="7" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#130#131#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
           </folding>
         </state>
       </provider>
