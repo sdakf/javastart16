@@ -52,7 +52,11 @@ public class ArraysExample {
         return table;
     }
 
-    public static int caluclateDifferenceBetweenMinAndMax(int[] table) {
+    public static int caluclateDifferenceBetweenMinAndMax(int[] entryTable) {
+        int[] tabOfMinAndMax = calculateMinMax(entryTable);
+        return Math.abs(tabOfMinAndMax[1] - tabOfMinAndMax[0]);
+    }
+    public static int[] calculateMinMax (int[] table) {
         int max = table[0];
         int min = table[0];
 
@@ -63,9 +67,9 @@ public class ArraysExample {
             if (element < min) {
                 min = element;
             }
-
         }
-        return Math.abs(max - min);
+        int[] tabForMinMax = new int[]{min, max};
+        return tabForMinMax;
     }
 
     public static boolean checkIfArraysAreSame(int[] firstArray, int[] secondArray) {

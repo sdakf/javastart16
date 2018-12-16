@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b07d781d-efa7-41b1-977a-d6cf5d84ced2" name="Default Changelist" comment="ForsWhiles">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day3/ArraysExample.java" afterDir="false" />
+    <list default="true" id="b07d781d-efa7-41b1-977a-d6cf5d84ced2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day4/HomeWork.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day3/ArraysExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day3/ArraysExample.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,10 +17,13 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/javastart/day3/ArraysExample.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/javastart/day4/HomeWork.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="508">
+              <caret line="40" column="125" selection-start-line="40" selection-start-column="125" selection-end-line="40" selection-end-column="125" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -60,6 +64,7 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day3/WhileExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day2/ForsExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day3/ArraysExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day4/HomeWork.java" />
       </list>
     </option>
   </component>
@@ -71,9 +76,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="-8" />
-    <option name="y" value="110" />
-    <option name="width" value="1292" />
+    <option name="x" value="155" />
+    <option name="y" value="257" />
+    <option name="width" value="1280" />
     <option name="height" value="765" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -139,6 +144,15 @@
               <item name="javastart" type="b2602c69:ProjectViewProjectNode" />
               <item name="javastart" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="javastart" type="462c0819:PsiDirectoryNode" />
+              <item name="day4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javastart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javastart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -152,7 +166,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544886651166" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544954148305" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -172,7 +186,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ArraysExample">
+  <component name="RunManager" selected="Application.HomeWork">
     <configuration name="ArraysExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.sda.javastart.day3.ArraysExample" />
       <module name="javastart" />
@@ -199,12 +213,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Homework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.sda.javastart.day3.Homework" />
+    <configuration name="HomeWork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.sda.javastart.day4.HomeWork" />
       <module name="javastart" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.sda.javastart.day3.*" />
+          <option name="PATTERN" value="pl.sda.javastart.day4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,12 +226,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IfsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.sda.javastart.day2.IfsExample" />
+    <configuration name="Homework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.sda.javastart.day3.Homework" />
       <module name="javastart" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.sda.javastart.day2.*" />
+          <option name="PATTERN" value="pl.sda.javastart.day3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -240,11 +254,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HomeWork" />
         <item itemvalue="Application.ArraysExample" />
         <item itemvalue="Application.ForsExample" />
         <item itemvalue="Application.WhileExample" />
         <item itemvalue="Application.Homework" />
-        <item itemvalue="Application.IfsExample" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +274,8 @@
       <updated>1544259972778</updated>
       <workItem from="1544259975849" duration="16866000" />
       <workItem from="1544342524687" duration="18916000" />
-      <workItem from="1544860846588" duration="21571000" />
+      <workItem from="1544860846588" duration="21888000" />
+      <workItem from="1544947363987" duration="5428000" />
     </task>
     <task id="LOCAL-00001" summary="First Day">
       <created>1544281080520</created>
@@ -318,11 +333,18 @@
       <option name="project" value="LOCAL" />
       <updated>1544877578268</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Arrays">
+      <created>1544886704137</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1544886704137</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57353000" />
+    <option name="totallyTimeSpent" value="63098000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -334,7 +356,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1600" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
@@ -342,7 +364,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.4992224" visible="true" weight="0.255625" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.4992224" weight="0.40390626" />
       <window_info id="Structure" order="6" sideWeight="0.5007776" side_tool="true" weight="0.32928804" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" />
@@ -351,7 +373,7 @@
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.36666667" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.39375" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.58666664" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="10" />
@@ -373,8 +395,8 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.4992224" visible="true" weight="0.32928804" />
-      <window_info active="true" id="Structure" order="6" sideWeight="0.5007776" side_tool="true" visible="true" weight="0.32928804" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.4992224" visible="true" weight="0.32605177" />
+      <window_info id="Structure" order="6" sideWeight="0.5007776" side_tool="true" weight="0.32928804" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" />
       <window_info anchor="bottom" id="Terminal" order="2" />
@@ -382,8 +404,8 @@
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.36858475" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.39426523" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.58666664" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -411,7 +433,8 @@
     <MESSAGE value="Fors1" />
     <MESSAGE value="Homework" />
     <MESSAGE value="ForsWhiles" />
-    <option name="LAST_COMMIT_MESSAGE" value="ForsWhiles" />
+    <MESSAGE value="Arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="Arrays" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -563,8 +586,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/javastart/day3/ArraysExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="656">
+          <caret line="70" column="28" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/javastart/day4/HomeWork.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="40" column="125" selection-start-line="40" selection-start-column="125" selection-end-line="40" selection-end-column="125" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
