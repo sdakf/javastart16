@@ -21,6 +21,9 @@ public class OOP {
         car.setBasePrice(BigDecimal.valueOf(0.99));
         System.out.println(summaryPrice(car));
         System.out.println(car.summaryPrice());
+
+        System.out.println(car.toString());
+        System.out.println(car);
     }
 
     private static BigDecimal summaryPrice(Car car) {

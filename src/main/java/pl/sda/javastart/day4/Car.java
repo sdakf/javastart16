@@ -14,6 +14,10 @@ public class Car {
 
     public BigDecimal summaryPrice() {
         BigDecimal result = basePrice;
+        if (options == null) {
+
+            return result == null ? BigDecimal.ZERO : result;
+        }
         for (int i = 0; i < options.length; i++) {
             result = result.add(options[i].getOptionPrice());
         }
@@ -84,4 +88,8 @@ public class Car {
         this.options = options;
     }
 
+    @Override
+    public String toString() {
+        return model + " " + summaryPrice();
+    }
 }
