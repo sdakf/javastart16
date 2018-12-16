@@ -20,6 +20,7 @@ public class OOP {
         car.setOptions(options);
         car.setBasePrice(BigDecimal.valueOf(0.99));
         System.out.println(summaryPrice(car));
+        System.out.println(car.summaryPrice());
     }
 
     private static BigDecimal summaryPrice(Car car) {

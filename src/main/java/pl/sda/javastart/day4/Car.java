@@ -12,6 +12,14 @@ public class Car {
     private int doorNumber;
     private CarOption[] options;
 
+    public BigDecimal summaryPrice() {
+        BigDecimal result = basePrice;
+        for (int i = 0; i < options.length; i++) {
+            result = result.add(options[i].getOptionPrice());
+        }
+        return result;
+    }
+
     public String getColour() {
         return colour;
     }
@@ -75,4 +83,5 @@ public class Car {
     public void setOptions(CarOption[] options) {
         this.options = options;
     }
+
 }
