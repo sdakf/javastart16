@@ -15,7 +15,7 @@ public class HomeWork {
         getAndPrint(4);
     }
 
-    public static int[] reversedArray(int[] tab) {
+    private static int[] reversedArray(int[] tab) {
         int length = tab.length;
         int[] tabResult = new int[length];
         for (int i = length; i > 0; i--) {

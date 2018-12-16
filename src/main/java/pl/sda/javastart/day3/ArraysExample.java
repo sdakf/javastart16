@@ -56,7 +56,8 @@ public class ArraysExample {
         int[] tabOfMinAndMax = calculateMinMax(entryTable);
         return Math.abs(tabOfMinAndMax[1] - tabOfMinAndMax[0]);
     }
-    public static int[] calculateMinMax (int[] table) {
+
+    public static int[] calculateMinMax(int[] table) {
         int max = table[0];
         int min = table[0];
 
