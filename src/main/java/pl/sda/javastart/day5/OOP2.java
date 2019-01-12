@@ -4,6 +4,12 @@ public class OOP2 {
     public static void main(String[] args) {
         equalsExample();
         referenceExample();
+        staticFinal();
+        Person person1 = new Person("Kowalski","Janusz");
+        System.out.println(person1.getIdentity());
+    }
+
+    private static void staticFinal() {
         Person person1 = new Person();
         Person person2 = new Person();
         System.out.println(person1.getIdentity());
@@ -13,8 +19,16 @@ public class OOP2 {
         CalculatorUtils utils = new CalculatorUtils();
         System.out.println(utils.add(3,7));
         System.out.println(CalculatorUtils.adding(4,5));
+        person1.setFirstName("Ola");
+        ExperimentalObject eo = new ExperimentalObject(1,2,person1);
+        eo.setNotFinalImmutable(6);
+        Person personFromEo = eo.getFinalMutable();
+        System.out.println(eo.getFinalMutable().getFirstName());
+        eo.getFinalMutable().setFirstName("AAA");
+        System.out.println(eo.getFinalMutable().getFirstName());
+        personFromEo.setFirstName("Anna");
+        System.out.println(eo.getFinalMutable().getFirstName());
     }
-
 
 
     private static void referenceExample() {

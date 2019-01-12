@@ -2,22 +2,35 @@ package pl.sda.javastart.day5;
 
 import java.util.Objects;
 
-public class Person {
+public class Person extends Object {
+    public static final int HEADS_QUANTITY = 1;
+
     private String surname;
     private String firstName;
     private int identity;
-    static int counter = 1;
+    static int counter;
 
+    static {
+        counter = 1;
+    }
+
+    {
+        System.out.println("Blok inicjalizujacy");
+        this.identity = counter++;
+    }
 
     public Person() {
-        this.identity = counter++;
-
     }
 
     public Person(String surname, String firstName, int identity) {
         this.surname = surname;
         this.firstName = firstName;
         this.identity = identity;
+    }
+
+    public Person(String surname, String firstName) {
+        this.surname = surname;
+        this.firstName = firstName;
     }
 
     public String getSurname() {
