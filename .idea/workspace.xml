@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/java/pl/sda/javastart/day5/OOP2.java" line="24" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/pl/sda/javastart/day5/OOP2.java" line="15" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b07d781d-efa7-41b1-977a-d6cf5d84ced2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day5/OOP2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day5/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day5/CalculatorUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day4/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day4/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day5/OOP2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day5/OOP2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day5/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day5/Person.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/javastart/day5/OOP2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="20" column="61" lean-forward="true" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
+            <state relative-caret-position="359">
+              <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -74,6 +74,7 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day4/OOP.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day4/Car.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day5/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day5/CalculatorUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day5/OOP2.java" />
       </list>
     </option>
@@ -166,7 +167,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547287188578" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547292048239" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="full.screen.before.presentation.mode" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
@@ -280,7 +281,7 @@
       <workItem from="1544860846588" duration="21888000" />
       <workItem from="1544947363987" duration="21499000" />
       <workItem from="1547278799591" duration="3658000" />
-      <workItem from="1547283746099" duration="3961000" />
+      <workItem from="1547283746099" duration="8529000" />
     </task>
     <task id="LOCAL-00001" summary="First Day">
       <created>1544281080520</created>
@@ -380,11 +381,18 @@
       <option name="project" value="LOCAL" />
       <updated>1544970293668</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="equals hashcode">
+      <created>1547288374321</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1547288374322</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87804000" />
+    <option name="totallyTimeSpent" value="92372000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -413,7 +421,7 @@
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.535" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.29" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.58625" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="10" />
@@ -478,7 +486,8 @@
     <MESSAGE value="OOPs" />
     <MESSAGE value="MindFUk" />
     <MESSAGE value="Summaryprice" />
-    <option name="LAST_COMMIT_MESSAGE" value="Summaryprice" />
+    <MESSAGE value="equals hashcode" />
+    <option name="LAST_COMMIT_MESSAGE" value="equals hashcode" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -507,6 +516,18 @@
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pl/sda/javastart/day5/OOP2.java</url>
+          <line>6</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pl/sda/javastart/day5/Person.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -530,13 +551,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/javastart/day1/Calculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -719,23 +733,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="113" column="12" selection-start-line="113" selection-start-column="12" selection-end-line="113" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/javastart/day5/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+        <state relative-caret-position="176">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/javastart/day1/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" column="44" lean-forward="true" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/javastart/day5/CalculatorUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
           <folding>
-            <element signature="e#566#567#0" expanded="true" />
-            <element signature="e#606#607#0" expanded="true" />
-            <element signature="e#903#904#0" expanded="true" />
-            <element signature="e#948#949#0" expanded="true" />
+            <element signature="e#95#96#0" expanded="true" />
+            <element signature="e#121#122#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/javastart/day5/OOP2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" column="61" lean-forward="true" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
+        <state relative-caret-position="359">
+          <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
         </state>
       </provider>
     </entry>
