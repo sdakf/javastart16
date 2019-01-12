@@ -2,7 +2,7 @@ package pl.sda.javastart.day4;
 
 import java.math.BigDecimal;
 
-public class Car {
+public class Car{
     private String colour;
     private String model;
     private String manufacture;

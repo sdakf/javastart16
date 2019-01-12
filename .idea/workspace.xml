@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/pl/sda/javastart/day5/OOP2.java" line="24" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b07d781d-efa7-41b1-977a-d6cf5d84ced2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day5/OOP2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day5/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day4/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day4/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day4/OOP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day4/OOP.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,46 +21,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/javastart/day4/Car.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/javastart/day5/OOP2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="61" lean-forward="true" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
-              <folding>
-                <element signature="e#635#636#0" expanded="true" />
-                <element signature="e#664#665#0" expanded="true" />
-                <element signature="e#708#709#0" expanded="true" />
-                <element signature="e#744#745#0" expanded="true" />
-                <element signature="e#776#777#0" expanded="true" />
-                <element signature="e#804#805#0" expanded="true" />
-                <element signature="e#846#847#0" expanded="true" />
-                <element signature="e#880#881#0" expanded="true" />
-                <element signature="e#918#919#0" expanded="true" />
-                <element signature="e#952#953#0" expanded="true" />
-                <element signature="e#1006#1007#0" expanded="true" />
-                <element signature="e#1052#1053#0" expanded="true" />
-                <element signature="e#1082#1083#0" expanded="true" />
-                <element signature="e#1108#1109#0" expanded="true" />
-                <element signature="e#1146#1147#0" expanded="true" />
-                <element signature="e#1176#1177#0" expanded="true" />
-                <element signature="e#1202#1203#0" expanded="true" />
-                <element signature="e#1227#1228#0" expanded="true" />
-                <element signature="e#1260#1261#0" expanded="true" />
-                <element signature="e#1288#1289#0" expanded="true" />
-                <element signature="e#1328#1329#0" expanded="true" />
-                <element signature="e#1360#1361#0" expanded="true" />
-                <element signature="e#1414#1415#0" expanded="true" />
-                <element signature="e#1456#1457#0" expanded="true" />
-                <element signature="e#1490#1491#0" expanded="true" />
-                <element signature="e#1523#1524#0" expanded="true" />
-                <element signature="e#1572#1573#0" expanded="true" />
-                <element signature="e#1616#1617#0" expanded="true" />
-                <element signature="e#1655#1656#0" expanded="true" />
-                <element signature="e#1685#1686#0" expanded="true" />
-                <element signature="e#1736#1737#0" expanded="true" />
-                <element signature="e#1774#1775#0" expanded="true" />
-                <element signature="e#1820#1821#0" expanded="true" />
-                <element signature="e#1871#1872#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="240">
+              <caret line="20" column="61" lean-forward="true" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -105,6 +73,8 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day4/CarOption.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day4/OOP.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day4/Car.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day5/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day5/OOP2.java" />
       </list>
     </option>
   </component>
@@ -116,10 +86,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="155" />
-    <option name="y" value="257" />
-    <option name="width" value="1280" />
-    <option name="height" value="765" />
+    <option name="x" value="-1288" />
+    <option name="y" value="-8" />
+    <option name="width" value="1296" />
+    <option name="height" value="776" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -129,60 +99,48 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="javastart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javastart" type="462c0819:PsiDirectoryNode" />
+              <item name="javastart16" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javastart16" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="javastart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javastart" type="462c0819:PsiDirectoryNode" />
+              <item name="javastart16" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javastart16" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javastart16" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javastart16" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="javastart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javastart" type="462c0819:PsiDirectoryNode" />
+              <item name="javastart16" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javastart16" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="javastart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javastart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javastart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javastart" type="462c0819:PsiDirectoryNode" />
+              <item name="javastart16" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javastart16" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="javastart" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="javastart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javastart" type="462c0819:PsiDirectoryNode" />
+              <item name="javastart16" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javastart16" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="javastart" type="462c0819:PsiDirectoryNode" />
-              <item name="day2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="javastart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javastart" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="javastart" type="462c0819:PsiDirectoryNode" />
-              <item name="day3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javastart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javastart" type="462c0819:PsiDirectoryNode" />
+              <item name="javastart16" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javastart16" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -190,29 +148,34 @@
               <item name="day4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="javastart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javastart" type="462c0819:PsiDirectoryNode" />
+              <item name="javastart16" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javastart16" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="javastart" type="462c0819:PsiDirectoryNode" />
+              <item name="day5" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544972449722" />
-    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547287188578" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="full.screen.before.presentation.mode" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -226,20 +189,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.OOP">
-    <configuration name="ArraysExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.sda.javastart.day4.ArraysExample" />
-      <module name="javastart" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.sda.javastart.day4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.OOP2">
     <configuration name="ForsExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.sda.javastart.day4.ForsExample2" />
       <module name="javastart" />
@@ -279,6 +229,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OOP2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.sda.javastart.day5.OOP2" />
+      <module name="javastart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.sda.javastart.day5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RandomExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.sda.javastart.day4.RandomExample" />
       <module name="javastart" />
@@ -294,11 +257,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OOP2" />
         <item itemvalue="Application.OOP" />
         <item itemvalue="Application.RandomExample" />
         <item itemvalue="Application.ForsExample2" />
         <item itemvalue="Application.HomeWork" />
-        <item itemvalue="Application.ArraysExample" />
       </list>
     </recent_temporary>
   </component>
@@ -316,6 +279,8 @@
       <workItem from="1544342524687" duration="18916000" />
       <workItem from="1544860846588" duration="21888000" />
       <workItem from="1544947363987" duration="21499000" />
+      <workItem from="1547278799591" duration="3658000" />
+      <workItem from="1547283746099" duration="3961000" />
     </task>
     <task id="LOCAL-00001" summary="First Day">
       <created>1544281080520</created>
@@ -419,7 +384,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79169000" />
+    <option name="totallyTimeSpent" value="87804000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -431,7 +396,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="6" />
+    <frame x="-1280" y="0" width="1280" height="800" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
@@ -439,7 +404,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.4992224" weight="0.33046874" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.4992224" weight="0.24453124" />
       <window_info id="Structure" order="6" sideWeight="0.5007776" side_tool="true" weight="0.32928804" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" />
@@ -448,7 +413,7 @@
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.4525" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.535" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.58625" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="10" />
@@ -470,7 +435,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.4992224" visible="true" weight="0.32605177" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.4992224" visible="true" weight="0.4158576" />
       <window_info id="Structure" order="6" sideWeight="0.5007776" side_tool="true" weight="0.32928804" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" />
@@ -479,8 +444,8 @@
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.39426523" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.58666664" />
+      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.4525" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.58625" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -555,31 +520,9 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="56" column="38" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/math/BigInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="604" column="11" selection-start-line="604" selection-start-column="11" selection-end-line="604" selection-end-column="11" />
-          <folding>
-            <element signature="e#22896#22897#0" expanded="true" />
-            <element signature="e#22925#22926#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="1312" column="25" selection-start-line="1312" selection-start-column="25" selection-end-line="1312" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Integer.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/math/BigInteger.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Math.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/javastart/day1/BigIntegerBigDecimal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -704,13 +647,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/String.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/javastart/day4/CarOption.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
@@ -731,21 +668,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/math/BigDecimal.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/math/BigDecimal.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Object.java" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/javastart/day4/OOP.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="689">
-          <caret line="1285" column="22" selection-start-line="1285" selection-start-column="22" selection-end-line="1285" selection-end-column="22" />
+        <state relative-caret-position="128">
+          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/javastart/day4/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
           <folding>
-            <element signature="e#37053#37054#0" expanded="true" />
-            <element signature="e#37100#37101#0" expanded="true" />
+            <element signature="e#744#745#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Object.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="234" column="18" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
+        <state relative-caret-position="557">
+          <caret line="234" column="12" lean-forward="true" selection-start-line="234" selection-start-column="12" selection-end-line="234" selection-end-column="12" />
           <folding>
             <element signature="docComment;class#Object#0" />
             <element signature="initializer##0;class#Object#0" />
@@ -754,8 +703,6 @@
             <element signature="docComment;method#equals#0;class#Object#0" />
             <element signature="docComment;method#clone#0;class#Object#0" />
             <element signature="docComment;method#toString#0;class#Object#0" />
-            <element signature="e#10065#10066#0" expanded="true" />
-            <element signature="e#10148#10149#0" expanded="true" />
             <element signature="docComment;method#notify#0;class#Object#0" />
             <element signature="docComment;method#notifyAll#0;class#Object#0" />
             <element signature="docComment;method#wait#0;class#Object#0" />
@@ -772,53 +719,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/javastart/day4/OOP.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/javastart/day5/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        <state relative-caret-position="792">
+          <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+          <folding>
+            <element signature="e#566#567#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#903#904#0" expanded="true" />
+            <element signature="e#948#949#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/javastart/day4/Car.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/javastart/day5/OOP2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="61" lean-forward="true" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
-          <folding>
-            <element signature="e#635#636#0" expanded="true" />
-            <element signature="e#664#665#0" expanded="true" />
-            <element signature="e#708#709#0" expanded="true" />
-            <element signature="e#744#745#0" expanded="true" />
-            <element signature="e#776#777#0" expanded="true" />
-            <element signature="e#804#805#0" expanded="true" />
-            <element signature="e#846#847#0" expanded="true" />
-            <element signature="e#880#881#0" expanded="true" />
-            <element signature="e#918#919#0" expanded="true" />
-            <element signature="e#952#953#0" expanded="true" />
-            <element signature="e#1006#1007#0" expanded="true" />
-            <element signature="e#1052#1053#0" expanded="true" />
-            <element signature="e#1082#1083#0" expanded="true" />
-            <element signature="e#1108#1109#0" expanded="true" />
-            <element signature="e#1146#1147#0" expanded="true" />
-            <element signature="e#1176#1177#0" expanded="true" />
-            <element signature="e#1202#1203#0" expanded="true" />
-            <element signature="e#1227#1228#0" expanded="true" />
-            <element signature="e#1260#1261#0" expanded="true" />
-            <element signature="e#1288#1289#0" expanded="true" />
-            <element signature="e#1328#1329#0" expanded="true" />
-            <element signature="e#1360#1361#0" expanded="true" />
-            <element signature="e#1414#1415#0" expanded="true" />
-            <element signature="e#1456#1457#0" expanded="true" />
-            <element signature="e#1490#1491#0" expanded="true" />
-            <element signature="e#1523#1524#0" expanded="true" />
-            <element signature="e#1572#1573#0" expanded="true" />
-            <element signature="e#1616#1617#0" expanded="true" />
-            <element signature="e#1655#1656#0" expanded="true" />
-            <element signature="e#1685#1686#0" expanded="true" />
-            <element signature="e#1736#1737#0" expanded="true" />
-            <element signature="e#1774#1775#0" expanded="true" />
-            <element signature="e#1820#1821#0" expanded="true" />
-            <element signature="e#1871#1872#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="240">
+          <caret line="20" column="61" lean-forward="true" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
         </state>
       </provider>
     </entry>
