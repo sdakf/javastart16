@@ -10,11 +10,6 @@ public class OOP2 {
         staticFinal();
         TestPerson person1 = new TestPerson("Kowalski","Janusz");
         System.out.println(person1.getIdentity());
-
-        List<TestPerson> personList = new ArrayList<>();
-        personList.add(new Worker());
-
-
     }
 
     private static void staticFinal() {
