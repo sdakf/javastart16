@@ -2,7 +2,7 @@ package pl.sda.javastart.day5;
 
 import java.util.Objects;
 
-public class Person extends Object {
+public class TestPerson {
     public static final int HEADS_QUANTITY = 1;
 
     private String surname;
@@ -19,16 +19,16 @@ public class Person extends Object {
         this.identity = counter++;
     }
 
-    public Person() {
+    public TestPerson() {
     }
 
-    public Person(String surname, String firstName, int identity) {
+    public TestPerson(String surname, String firstName, int identity) {
         this.surname = surname;
         this.firstName = firstName;
         this.identity = identity;
     }
 
-    public Person(String surname, String firstName) {
+    public TestPerson(String surname, String firstName) {
         this.surname = surname;
         this.firstName = firstName;
     }
@@ -61,7 +61,7 @@ public class Person extends Object {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Person person = (Person) o;
+        TestPerson person = (TestPerson) o;
         return identity == person.identity;
     }
 

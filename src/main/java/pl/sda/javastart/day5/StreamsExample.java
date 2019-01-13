@@ -3,6 +3,7 @@ package pl.sda.javastart.day5;
 import org.apache.commons.lang3.StringUtils;
 
 import java.util.Arrays;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 public class StreamsExample {
@@ -13,6 +14,7 @@ public class StreamsExample {
     public static void main(String[] args) {
         firstStream();
         secondStream();
+        sortExample();
     }
 
     private static void firstStream() {
@@ -49,5 +51,40 @@ public class StreamsExample {
                 .map(a -> a.trim())
                 .collect(Collectors.joining(","));
         System.out.println(result);
+    }
+
+    private static void sortExample(){
+        String name1 = "Anna";
+        String name2 = "Ola";
+        System.out.println(name1.compareTo(name2));
+        System.out.println("sortowanie alfabetyczne");
+        Arrays.stream(animals)
+                .filter(e -> StringUtils.isNotBlank(e))
+                .map(e -> e.trim())
+                .distinct()
+                .sorted((e,f) -> e.compareTo(f))
+                .forEach(e -> System.out.print(e + " "));
+        System.out.println("sortowanie po długości Stringa");
+        Arrays.stream(animals)
+                .filter(e -> StringUtils.isNotBlank(e))
+                .map(e -> e.trim())
+                .distinct()
+                .sorted((e,f) -> Integer.valueOf(e.length()).compareTo(Integer.valueOf(f.length())))
+                .forEach(e -> System.out.println(e + " "));
+
+
+    }
+
+    private static void optionalExample(){
+        Optional<String> optionalS = Arrays.stream(animals)
+                .filter(e -> e.equals("PIES"))
+                .findFirst();
+
+        optionalS.get();
+
+        String s = Arrays.stream(animals)
+                .filter(e -> e.equals("PIES"))
+                .findFirst()
+                .orElse("NIE MA");
     }
 }

@@ -1,20 +1,28 @@
 package pl.sda.javastart.day5;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class OOP2 {
     public static void main(String[] args) {
         equalsExample();
         referenceExample();
         staticFinal();
-        Person person1 = new Person("Kowalski","Janusz");
+        TestPerson person1 = new TestPerson("Kowalski","Janusz");
         System.out.println(person1.getIdentity());
+
+        List<TestPerson> personList = new ArrayList<>();
+        personList.add(new Worker());
+
+
     }
 
     private static void staticFinal() {
-        Person person1 = new Person();
-        Person person2 = new Person();
+        TestPerson person1 = new TestPerson();
+        TestPerson person2 = new TestPerson();
         System.out.println(person1.getIdentity());
         System.out.println(person2.getIdentity());
-        System.out.println("ludzi na świecie jest: " + (Person.counter - 1));
+        System.out.println("ludzi na świecie jest: " + (TestPerson.counter - 1));
 
         CalculatorUtils utils = new CalculatorUtils();
         System.out.println(utils.add(3,7));
@@ -22,7 +30,7 @@ public class OOP2 {
         person1.setFirstName("Ola");
         ExperimentalObject eo = new ExperimentalObject(1,2,person1);
         eo.setNotFinalImmutable(6);
-        Person personFromEo = eo.getFinalMutable();
+        TestPerson personFromEo = eo.getFinalMutable();
         System.out.println(eo.getFinalMutable().getFirstName());
         eo.getFinalMutable().setFirstName("AAA");
         System.out.println(eo.getFinalMutable().getFirstName());
@@ -50,8 +58,8 @@ public class OOP2 {
     }
 
     private static void equalsExample() {
-        Person person1 = new Person();
-        Person person2 = new Person();
+        TestPerson person1 = new TestPerson();
+        TestPerson person2 = new TestPerson();
         person1.setFirstName("Anna");
         person2.setFirstName("Anna");
         person1.setIdentity(123);
@@ -62,7 +70,7 @@ public class OOP2 {
         System.out.println(person1.equals(person2));
         System.out.println(person1.hashCode() == person2.hashCode());
 
-        Person person3 = new Person("Anna", "Nowak", 123);
+        TestPerson person3 = new TestPerson("Anna", "Nowak", 123);
         System.out.println(person1.equals(person3));
         person3.setIdentity(111);
         System.out.println(person1.equals(person3));
