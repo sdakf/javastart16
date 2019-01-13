@@ -2,7 +2,7 @@ package pl.sda.javastart.day6;
 
 import java.math.BigDecimal;
 
-public class Worker extends Person {
+public class Worker extends Person implements NameHolder{
     private BigDecimal salary;
 
     public Worker(String firstName, String lastName, Integer identity, Integer age, BigDecimal salary) {
@@ -14,6 +14,11 @@ public class Worker extends Person {
     public void introductionInner(){
         super.intoduction();
         System.out.println("Ale też pracuś");
+    }
+
+    @Override
+    public String showYourName(){
+        return getFirstName() + " " + super.getLastName(); // super. może być ale nie musi - jest domyślne
     }
 
     @Override

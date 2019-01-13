@@ -2,7 +2,7 @@ package pl.sda.javastart.day6;
 
 import java.math.BigDecimal;
 
-public class Person {
+public abstract class Person {
 
     private String firstName;
     private String lastName;
@@ -20,9 +20,7 @@ public class Person {
         System.out.println("Jestem człowiek");
     }
 
-    public BigDecimal showIncome() {
-        return BigDecimal.ZERO;
-    }
+    public abstract BigDecimal showIncome();
 
     public String getFirstName() {
         return firstName;
