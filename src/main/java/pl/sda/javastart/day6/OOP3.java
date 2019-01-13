@@ -10,6 +10,14 @@ public class OOP3 {
         Student student = new Student("Kasia","Kowalska",321,20,987,BigDecimal.valueOf(600));
         Pensioner pensioner = new Pensioner("Janusz","Kwiatkowski",912,91,BigDecimal.valueOf(800));
 
-
+        System.out.println(worker.showIncome());
+        System.out.println(student.showIncome());
+        System.out.println(pensioner.showIncome());
+        worker.introductionInner();
+        student.introductionInner();
+        pensioner.introductionInner();
     }
+
+
+
 }

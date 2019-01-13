@@ -1,5 +1,7 @@
 package pl.sda.javastart.day6;
 
+import java.math.BigDecimal;
+
 public class Person {
 
     private String firstName;
@@ -12,6 +14,14 @@ public class Person {
         this.lastName = lastName;
         this.identity = identity;
         this.age = age;
+    }
+
+    protected void intoduction(){
+        System.out.println("Jestem człowiek");
+    }
+
+    public BigDecimal showIncome() {
+        return BigDecimal.ZERO;
     }
 
     public String getFirstName() {

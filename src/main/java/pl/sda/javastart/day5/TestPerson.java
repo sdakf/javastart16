@@ -23,8 +23,7 @@ public class TestPerson {
     }
 
     public TestPerson(String surname, String firstName, int identity) {
-        this.surname = surname;
-        this.firstName = firstName;
+        this(surname, firstName);
         this.identity = identity;
     }
 

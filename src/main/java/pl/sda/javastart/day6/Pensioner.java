@@ -11,6 +11,16 @@ public class Pensioner extends Person {
         this.pension = pension;
     }
 
+    public void introductionInner(){
+        super.intoduction();
+        System.out.println("Ale też emerycik");
+    }
+
+    @Override
+    public BigDecimal showIncome() {
+        return pension;
+    }
+
     public BigDecimal getPension() {
         return pension;
     }
