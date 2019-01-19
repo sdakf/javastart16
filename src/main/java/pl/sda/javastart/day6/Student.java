@@ -42,4 +42,12 @@ public class Student extends Person implements NameHolder {
     public void setScholarship(BigDecimal scholarship) {
         this.scholarship = scholarship;
     }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "indexNo=" + indexNo +
+                ", scholarship=" + scholarship +
+                "} " + super.toString();
+    }
 }

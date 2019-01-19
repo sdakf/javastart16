@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b07d781d-efa7-41b1-977a-d6cf5d84ced2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day7/ColourEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day7/OOP4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day7/CollectionsExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day4/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day4/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day6/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day6/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day6/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day6/Student.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,10 +21,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/javastart/day7/OOP4.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/javastart/day7/CollectionsExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+            <state relative-caret-position="291">
+              <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,16 +85,17 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day5/OOP2.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day5/TestPerson.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day6/Pensioner.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day6/Person.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day6/FlatInfoHolder.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day6/NameHolder.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day6/Worker.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day6/Student.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day6/OOP3.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day7/Colour.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day7/ColourEnum.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day4/Car.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day7/OOP4.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day6/Student.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day6/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/sda/javastart/day7/CollectionsExample.java" />
       </list>
     </option>
   </component>
@@ -192,7 +193,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547892338323" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547902017929" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
@@ -216,13 +217,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.OOP4">
-    <configuration name="OOP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.sda.javastart.day4.OOP" />
+  <component name="RunManager" selected="Application.CollectionsExample">
+    <configuration name="CollectionsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.sda.javastart.day7.CollectionsExample" />
       <module name="javastart" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.sda.javastart.day4.*" />
+          <option name="PATTERN" value="pl.sda.javastart.day7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -284,11 +285,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CollectionsExample" />
         <item itemvalue="Application.OOP4" />
         <item itemvalue="Application.OOP3" />
         <item itemvalue="Application.StreamsExample" />
         <item itemvalue="Application.OOP2" />
-        <item itemvalue="Application.OOP" />
       </list>
     </recent_temporary>
   </component>
@@ -309,7 +310,7 @@
       <workItem from="1547278799591" duration="3658000" />
       <workItem from="1547283746099" duration="27726000" />
       <workItem from="1547373458655" duration="14787000" />
-      <workItem from="1547884869613" duration="3419000" />
+      <workItem from="1547884869613" duration="8944000" />
     </task>
     <task id="LOCAL-00001" summary="First Day">
       <created>1544281080520</created>
@@ -458,11 +459,18 @@
       <option name="project" value="LOCAL" />
       <updated>1547381914044</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="overriding methods">
+      <created>1547892523140</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1547892523140</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129775000" />
+    <option name="totallyTimeSpent" value="135300000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -491,7 +499,7 @@
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.25125" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.30625" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.51875" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="10" />
@@ -663,9 +671,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Integer.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/math/BigInteger.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Math.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/javastart/day1/BigIntegerBigDecimal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -960,25 +965,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/javastart/day6/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-          <folding>
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#576#577#0" expanded="true" />
-            <element signature="e#699#700#0" expanded="true" />
-            <element signature="e#791#792#0" expanded="true" />
-            <element signature="e#857#858#0" expanded="true" />
-            <element signature="e#945#946#0" expanded="true" />
-            <element signature="e#1012#1013#0" expanded="true" />
-            <element signature="e#1101#1102#0" expanded="true" />
-            <element signature="e#1158#1159#0" expanded="true" />
-            <element signature="e#1227#1228#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/javastart/day6/FlatInfoHolder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -997,13 +983,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="373">
           <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/javastart/day6/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1041,10 +1020,160 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/lang/Long.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="53" column="60" selection-start-line="53" selection-start-column="50" selection-end-line="53" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/javastart/day7/OOP4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        <state relative-caret-position="246">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/util/AbstractCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-112">
+          <caret line="452" column="18" selection-start-line="452" selection-start-column="18" selection-end-line="452" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/javastart/day6/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="144" column="12" selection-start-line="144" selection-start-column="12" selection-end-line="144" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/util/AbstractList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="780" column="1" lean-forward="true" selection-start-line="780" selection-start-column="1" selection-end-line="780" selection-end-column="1" />
+          <folding>
+            <element signature="docComment;class#AbstractList#0" />
+            <element signature="class#AbstractList#0" />
+            <element signature="docComment;method#AbstractList#0;class#AbstractList#0" />
+            <element signature="method#AbstractList#0;class#AbstractList#0" />
+            <element signature="docComment;method#add#0;class#AbstractList#0" />
+            <element signature="method#add#0;class#AbstractList#0" />
+            <element signature="docComment;method#get#0;class#AbstractList#0" />
+            <element signature="docComment;method#set#0;class#AbstractList#0" />
+            <element signature="docComment;method#add#1;class#AbstractList#0" />
+            <element signature="docComment;method#remove#0;class#AbstractList#0" />
+            <element signature="docComment;method#indexOf#0;class#AbstractList#0" />
+            <element signature="method#indexOf#0;class#AbstractList#0" />
+            <element signature="e#5889#6017#1" />
+            <element signature="e#6023#6155#1" />
+            <element signature="docComment;method#lastIndexOf#0;class#AbstractList#0" />
+            <element signature="method#lastIndexOf#0;class#AbstractList#0" />
+            <element signature="e#6716#6848#1" />
+            <element signature="e#6854#6990#1" />
+            <element signature="docComment;method#clear#0;class#AbstractList#0" />
+            <element signature="docComment;method#addAll#0;class#AbstractList#0" />
+            <element signature="method#addAll#0;class#AbstractList#0" />
+            <element signature="e#8664#8733#1" />
+            <element signature="docComment;method#iterator#0;class#AbstractList#0" />
+            <element signature="docComment;method#listIterator#0;class#AbstractList#0" />
+            <element signature="docComment;method#listIterator#1;class#AbstractList#0" />
+            <element signature="method#listIterator#1;class#AbstractList#0" />
+            <element signature="class#Itr#0;class#AbstractList#0" />
+            <element signature="docComment;field#cursor#0;class#Itr#0;class#AbstractList#0" />
+            <element signature="docComment;field#lastRet#0;class#Itr#0;class#AbstractList#0" />
+            <element signature="docComment;field#expectedModCount#0;class#Itr#0;class#AbstractList#0" />
+            <element signature="method#next#0;class#Itr#0;class#AbstractList#0" />
+            <element signature="e#11932#12102#0" />
+            <element signature="e#12139#12248#0" />
+            <element signature="method#remove#0;class#Itr#0;class#AbstractList#0" />
+            <element signature="e#12426#12635#0" />
+            <element signature="e#12672#12748#0" />
+            <element signature="method#checkForComodification#0;class#Itr#0;class#AbstractList#0" />
+            <element signature="class#ListItr#0;class#AbstractList#0" />
+            <element signature="method#previous#0;class#ListItr#0;class#AbstractList#0" />
+            <element signature="e#13231#13390#0" />
+            <element signature="e#13427#13536#0" />
+            <element signature="method#set#0;class#ListItr#0;class#AbstractList#0" />
+            <element signature="e#13862#13973#0" />
+            <element signature="e#14011#14087#0" />
+            <element signature="method#add#0;class#ListItr#0;class#AbstractList#0" />
+            <element signature="e#14185#14384#0" />
+            <element signature="e#14422#14498#0" />
+            <element signature="docComment;method#subList#0;class#AbstractList#0" />
+            <element signature="method#subList#0;class#AbstractList#0" />
+            <element signature="docComment;method#equals#0;class#AbstractList#0" />
+            <element signature="method#equals#0;class#AbstractList#0" />
+            <element signature="e#18255#18417#1" />
+            <element signature="docComment;method#hashCode#0;class#AbstractList#0" />
+            <element signature="method#hashCode#0;class#AbstractList#0" />
+            <element signature="docComment;method#removeRange#0;class#AbstractList#0" />
+            <element signature="method#removeRange#0;class#AbstractList#0" />
+            <element signature="e#20316#20375#1" />
+            <element signature="docComment;field#modCount#0;class#AbstractList#0" />
+            <element signature="method#rangeCheckForAdd#0;class#AbstractList#0" />
+            <element signature="class#SubList#0" />
+            <element signature="method#SubList#0;class#SubList#0" />
+            <element signature="method#set#0;class#SubList#0" />
+            <element signature="method#get#0;class#SubList#0" />
+            <element signature="method#size#0;class#SubList#0" />
+            <element signature="method#add#0;class#SubList#0" />
+            <element signature="method#remove#0;class#SubList#0" />
+            <element signature="method#removeRange#0;class#SubList#0" />
+            <element signature="method#addAll#1;class#SubList#0" />
+            <element signature="method#listIterator#0;class#SubList#0" />
+            <element signature="class#24658:25943" />
+            <element signature="method#next#0;class#24658:25943" />
+            <element signature="method#previous#0;class#24658:25943" />
+            <element signature="method#remove#0;class#24658:25943" />
+            <element signature="method#add#0;class#24658:25943" />
+            <element signature="method#rangeCheck#0;class#SubList#0" />
+            <element signature="method#rangeCheckForAdd#0;class#SubList#0" />
+            <element signature="method#checkForComodification#0;class#SubList#0" />
+            <element signature="class#RandomAccessSubList#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
+          <folding>
+            <element signature="e#6283#6284#0" expanded="true" />
+            <element signature="e#6351#6352#0" expanded="true" />
+            <element signature="e#11079#11080#0" expanded="true" />
+            <element signature="e#11117#11118#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/javastart/day6/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="71" column="35" lean-forward="true" selection-start-line="71" selection-start-column="35" selection-end-line="71" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1859#1860#0" expanded="true" />
+            <element signature="e#1904#1905#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/sda/javastart/day7/CollectionsExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
