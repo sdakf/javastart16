@@ -70,8 +70,13 @@ public class CustomersExample {
         return resultMap;
     }
 
-    private static Map<BigDecimal, List<Customer>> salariesMapWithStream(){
+    private static Map<BigDecimal, List<Customer>> salariesMapWithStream() {
         return customerList().stream()
                 .collect(Collectors.groupingBy(e -> e.getSalary()));
+    }
+
+    private static Map<BigDecimal, List<String>> salariesMapWithMergedInfosWithStream() {
+        return customerList().stream()
+                .collect(Collectors.groupingBy(e -> e.getSalary(), Collectors.mapping(e -> e.getId() + ", " + e.getFirstName() + ", " + e.getSurname(), Collectors.toList())));
     }
 }

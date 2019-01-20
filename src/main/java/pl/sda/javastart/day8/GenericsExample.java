@@ -41,7 +41,7 @@ public class GenericsExample {
     }
 
     private static <T extends Number> double sumAnySpecifiedNumbers(List<T> numbers) {
-        Double sum = 0d;
+        double sum = 0d;
         for (T number : numbers) {
             sum = sum + number.doubleValue();
         }
