@@ -1,5 +1,8 @@
 package pl.sda.javastart.day8;
 
+import java.util.Arrays;
+import java.util.List;
+
 public class GenericsExample {
     public static void main(String[] args) {
         notGeneric();
@@ -15,6 +18,34 @@ public class GenericsExample {
         GenericFruitBox<Orange> orangeBox = new GenericFruitBox<>(new Orange());
         orangeBox.getFruit().introduceYourself();
 //        orangeBox.getFruit().introduceApple(); nie mozna wywołać, bo tej metody nie ma w Orange
+
+        List<Number> numbers = Arrays.asList(4, 10.9, 1, 333333);
+        System.out.println(sumAnyNumbers(numbers));
+
+        List<Long> longs = Arrays.asList(123L, 23L);
+
+//        Long x = sumAnySpecifiedNumbers(longs);
+//        System.out.println(x);
+
+        List<Double> numbers1 = Arrays.asList(123.3d, 0.7d);
+        Double aDouble = sumAnySpecifiedNumbers(numbers1);
+        System.out.println(aDouble);
+    }
+
+    private static Double sumAnyNumbers(List<Number> numbers) {
+        Double sum = 0d;
+        for (Number number : numbers) {
+            sum = sum + number.doubleValue();
+        }
+        return sum;
+    }
+
+    private static <T extends Number> double sumAnySpecifiedNumbers(List<T> numbers) {
+        Double sum = 0d;
+        for (T number : numbers) {
+            sum = sum + number.doubleValue();
+        }
+        return sum;
     }
 
     private static void compileTimeSafety() {
